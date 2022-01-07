@@ -19,9 +19,9 @@ export const mostrarInmobiliaria = (inmobiliarias)=>{
         <td>${badged}</td>
         <td>${zona}</td>
         <td>
-          <button class="actualizar" type="button" class="btn btn-outline-primary btn-sm">Editar</button>
+          <button type="button" class="btn btn-outline-primary btn-sm actualizar">Editar</button>
           
-          <button class="borrar" type="button" class="btn btn-sm btn-outline-danger")">Eliminar</button>
+          <button type="button" class="btn btn-sm btn-outline-danger borrar">Eliminar</button>
         </td>
       </tr>
     `;
