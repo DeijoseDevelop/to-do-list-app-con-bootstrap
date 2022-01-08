@@ -21,7 +21,7 @@ export const mostrarInmobiliaria = (inmobiliarias)=>{
         <td>
           <button type="button" class="btn btn-outline-primary btn-sm actualizar">Editar</button>
           
-          <button type="button" class="btn btn-sm btn-outline-danger borrar">Eliminar</button>
+          <button type="button" class="btn btn-sm btn-outline-danger borrar")">Eliminar</button>
         </td>
       </tr>
     `;
