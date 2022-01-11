@@ -1,5 +1,6 @@
+let id = 0;
 export const crearInmobiliaria = (inmobiliarias, anio, metros, habitaciones, garaje, zona)=>{
-    let id = inmobiliarias.length + 1;
+    id++;
     let inmobiliaria = {
         id,
         anio,

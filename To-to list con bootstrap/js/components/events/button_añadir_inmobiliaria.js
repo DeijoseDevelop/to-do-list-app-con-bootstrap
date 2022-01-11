@@ -9,5 +9,6 @@ export const añadirInmobiliaria = ()=>{
         crearInmobiliaria(inmobiliarias, anio.value, metros.value, habitaciones.value, garaje.checked, zona.value.toUpperCase());
         form.reset();
         mostrarInmobiliaria(inmobiliarias);
+        document.getElementById('form').classList.add('d-none')
     });
 }
